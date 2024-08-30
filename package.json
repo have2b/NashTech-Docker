@@ -1,0 +1,14 @@
+{
+  "name": "nashtech-docker",
+  "version": "1.0.0",
+  "description": "Thanks for your interest in contributing to our sharing sessions. We're happy to have you here. If you need any help, feel free to reach out to us.   ## About this repository This repository will include source code, Dockerfile and related files that helps you practice Docker immediately without any coding effort. ## Environment We will use Docker in Windows, you'll need to install: + WSL2, to serve as a runtime environment for Docker Engine + Docker Engine inside WSL2, to be able to run containers + WSL extension in VSCode to help you view source code in WSL2 through VSCode installed in Windows ## Now, let's get started :rocket: ### Install WSL2 WSL2, or the Windows Subsystem for Linux, allows you to run a Linux distribution on Windows. To install it with the default Ubuntu distribution, open a terminal in administrator mode and use the following command:  ``` wsl --install ``` After installing WSL2, you can start it by typing wsl in a terminal, or by launching the WSL program from your Windows Start menu. Once WSL2 is open, update your Linux distribution to ensure all packages are up to date with the following command: ``` sudo apt update && sudo apt upgrade ``` ### Install Docker Engine on WSL2 Next, let’s install the Docker Engine, which is the core component that runs Docker containers. The following two blocks of commands will first add the Docker apt repository and then install Docker. You can execute them directly in the WSL2 terminal. ``` sudo apt-get install ca-certificates curl sudo install -m 0755 -d /etc/apt/keyrings sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc sudo chmod a+r /etc/apt/keyrings/docker.asc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
