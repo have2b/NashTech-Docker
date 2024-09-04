@@ -1,0 +1,6 @@
+- **Use Semantic Versioning**: `<major_version>.<minor_version>.<patch>`
+- **Tag latest version**
+- **Be descriptive and consistent**
+- **Use environment and architecture-specific tags**: `<username>/<app_name>:<version>-<environment>-<architecture>`
+- **Re-tag image when needed**
+- **Use automated build and tagging tools**: using CI/CD tools (Jenkins, GitLab CI, Travis-CI) to automate image builds and tagging based on commits, branches, or other rules.

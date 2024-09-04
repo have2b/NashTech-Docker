@@ -1,0 +1,2 @@
+# Definition
+- By default, the storage within a Docker container is ephemeral, meaning that any data changes or modifications made inside a container will only persist as long as the container is running, and will be lost when container is stopped and removed.

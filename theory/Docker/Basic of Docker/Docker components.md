@@ -1,0 +1,3 @@
+- ***Dockerfile***: A text file containing instructions (commands) to build a **Docker image**.
+- ***Docker Image***: A snapshot of a container, created from a **Dockerfile**. Stored in a registry like Docker Hub, can be pulled or pushed to the registry.
+- ***Docker container***: A running instance of a **Docker Image**.

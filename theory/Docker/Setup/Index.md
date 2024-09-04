@@ -1,0 +1,4 @@
+- Docker provides a desktop application called ***Docker Desktop*** that simplifies the installation and setup process
+- There is also another option to install using the ***Docker Engine***
+- [Docker Desktop](Docker%20desktop.md)
+- [Docker Engine](Docker%20engine.md)

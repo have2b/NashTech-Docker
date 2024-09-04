@@ -1,0 +1,4 @@
+- To resolve many problems like:
+	- **Inconsistent environments:** Developers often work in different environments which might have different configurations and libraries compared to production servers.
+	- **Inefficient resource utilization:** Compared to VMs, a solution for ***inconsistent environment***, while VMs require an entire OS to be running for each application, it make the resource utilization inefficient.
+	- **Show process and  scalability issues:** Traditional deployment methods have a slower time to market and scaling difficulties, which hinders fast delivery of software updates.
